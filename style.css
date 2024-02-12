@@ -1,0 +1,152 @@
+#gamename {
+    text-align: center;
+    padding-top: 5px;
+    color: #ef9815;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    width: 40vh;
+    height: 40vh;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    border-radius: 50%;
+}
+
+#blue,
+#green,
+#red,
+#yellow {
+    height: 45%;
+    width: 45%;
+}
+
+#green {
+    border: 3px solid;
+    border-top-left-radius: 100%;
+    background-color: #74E291;
+    opacity: 0.8;
+}
+
+#red {
+    border: 3px solid;
+    border-top-right-radius: 100%;
+    background-color: #FF8080;
+    opacity: 0.8;
+}
+
+#yellow {
+    border: 3px solid;
+    border-bottom-left-radius: 100%;
+    background-color: #FDBF60;
+    opacity: 0.8;
+}
+
+#blue {
+    border: 3px solid;
+    border-bottom-right-radius: 100%;
+    background-color: #40A2D8;
+    opacity: 0.8;
+}
+
+.bottom {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.icons {
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.developer {
+    text-align: center;
+    color: black;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+@media(max-width:305px) {
+    #pssg {
+        text-align: center;
+        padding-top: 5px;
+        color: #ef9815;
+        font-size: 18px;
+    }
+
+    #btns {
+        display: flex;
+        justify-content: center;
+        padding: 12px;
+        gap: 15px;
+        font-family: sans-serif;
+    }
+    
+    #container {
+        display: flex;
+        justify-content: space-evenly;
+        border: 2px solid black;
+        width: 30vh;
+        height: 30vh;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        border-radius: 50%;
+    }
+    
+    #blue,
+    #green,
+    #red,
+    #yellow {
+        height: 44%;
+        width: 44%;
+    }
+    
+    .bottom {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .icons {
+        color: black;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .developer {
+        text-align: center;
+        color: black;
+        font-weight: 200;
+        font-size: 12px;
+    }
+    #score,#start,#reset{
+        font-size: 12px;
+    }
+}
